@@ -86,10 +86,10 @@ function ssh_instance:ReadLine(eol, custom) end
 ---Searches the socket buffer for string 'str' (starting at integer 'start_pos') and returns the
 ---index of where 'str' is found. 'start_pos' defaults to 1.
 ---
----@param search_str string
----@param start_pos number
+---@param searchStr string
+---@param startPos number
 ---@return number|nil
-function ssh_instance:Search(search_str, start_pos) end
+function ssh_instance:Search(searchStr, startPos) end
 
 
 return Ssh
