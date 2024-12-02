@@ -4,6 +4,11 @@
   "words": ["Controls", "EventHandler"],
   "files": ["%s.qplug"],
   "settings": {
-    "Lua.runtime.version": "Lua 5.3"
+    "Lua.runtime.version": "Lua 5.3",
+    "Lua.diagnostics.ignoredFiles": "Disable",
+    "Lua.workspace.ignoreDir": [
+      ".vscode",
+      "*.qplug"
+    ]
   }
 }
