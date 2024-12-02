@@ -27,7 +27,7 @@
 ---@class Controls
 ---@field Inputs Control[]
 ---@field Outputs Control[]
----@field [string] Control
+---@field [string] Control|Control[]
 Controls = {}
 
 
