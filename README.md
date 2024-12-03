@@ -6,6 +6,12 @@ After cloning or downloading this addon, add the following to the settings.json 
 ```json
 {
 ...
+	"Lua.runtime.version": "Lua 5.3",
+	"Lua.diagnostics.ignoredFiles": "Disable",
+	"Lua.workspace.ignoreDir": [
+		".vscode",
+		"*.qplug"
+	],
 	"Lua.workspace.library": [
 		"_location/of/this/addon/after/download_/qsys/library"
 	]

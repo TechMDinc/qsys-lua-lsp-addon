@@ -9,6 +9,6 @@
     "Lua.workspace.ignoreDir": [
       ".vscode",
       "*.qplug"
-    ]
+    ],
   }
 }
